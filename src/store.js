@@ -32,6 +32,9 @@ const store = new Vuex.Store({
     ventasRealizadas: state=>{
       return state.ventas.length
     },
+    totalSuma:state=>{
+      return state.totalGanancias.reduce((a,b)=>a+b)
+    }
 
   },
   mutations: {

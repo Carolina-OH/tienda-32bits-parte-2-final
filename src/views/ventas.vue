@@ -1,7 +1,7 @@
 <template>
 <div>
     <div class="ventas">
-    <h1> ventas</h1>
+    <h1> Ventas</h1>
     <lista :JuegosParaVender="JuegosParaVender" :totalJuegosstock="totalJuegosstock"></lista>
     </div>
 </div>

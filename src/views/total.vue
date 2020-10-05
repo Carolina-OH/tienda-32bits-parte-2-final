@@ -3,7 +3,7 @@
     
     <h1> TOTAL VENTAS</h1>
     <div class="total">
-    <sumatoria :ventas="ventas"></sumatoria>
+    <sumatoria :ventas="ventas" :totalSuma="totalSuma"></sumatoria>
     </div>
 </div>
 </template>
@@ -19,7 +19,7 @@ export default {
     },
     computed: {
         ...mapState(['Juegos','ventas']),
-        ...mapGetters(['totalJuegos','JuegosParaVender','ventasRealizadas']),
+        ...mapGetters(['totalJuegos','JuegosParaVender','ventasRealizadas','totalSuma']),
     },
     methods: {
         // -- Metodos

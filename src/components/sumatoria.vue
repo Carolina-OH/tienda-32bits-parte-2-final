@@ -7,7 +7,7 @@
     </li>
     </ul>
 
-    <p>Monto total de ventas:</p>
+    <p>Monto total de ventas: ${{totalSuma}}</p>
     </div>
 </template>
 
@@ -19,7 +19,8 @@ export default {
             type:Array,
         },
         ventas:{
-        }
+        },
+        totalSuma:{}
     },
     data: function(){
         return {}
